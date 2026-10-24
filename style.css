@@ -1,0 +1,38 @@
+body{
+text-align: center;
+background-color:#e4f6f4;
+}
+h1{
+    color: black;
+}
+p{
+    color: black;
+}
+img{
+    width:60px;
+    border-radius:50%;
+    margin: auto 100px;
+    position: relative;
+    animation: move 2s infinite alternate;
+}
+@keyframes move{
+    to{
+        transform: translateY(100px) scale(2);
+    }
+}
+
+
+button{
+    color: orangered;
+    background-color: cornsilk;
+    transition:0.5s;
+    border: none;
+    padding:8px 45px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: red;
+    color: black;
+    transform: scale(2);
+}
+
